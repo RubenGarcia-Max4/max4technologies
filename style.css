@@ -4988,6 +4988,11 @@ to{-webkit-transform:rotate(360deg) translate(-10px) rotate(-360deg);-moz-transf
     max-height: 100%;
     padding: 0%;
 }
+.iconoconocenoss{
+    max-height: 80%;
+    padding: 0%;
+    
+}
 .linea_negocio{
     display: inline-block;
     text-align: center;
