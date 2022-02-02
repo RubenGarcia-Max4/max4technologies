@@ -56,6 +56,7 @@
 	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all" />
 	<!-- Main Style CSS -->
 	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="./styles.css" type="text/css" media="all" />
 	<!-- transitions CSS -->
 	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all" />
 	<!-- venobox CSS -->
@@ -173,7 +174,7 @@
 
 
 
-	<div class="about_area pt-85 pb-100" id="masmensajes" style="background:white; padding-bottom: 0%; padding-top: 150px;">
+	<div class="primercont pb-100" id="masmensajes">
 		<div class="container" style="position:relative;">
 			<div class="row">
 				<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
@@ -189,21 +190,24 @@
 							<div class="em_bar_bg"></div>
 						</div>
 						<div class="section_content_text pt-4">
-							<p style="font-size:20px;"> <strong>Olvídate de tener retrasos en la entrega, riesgos de trabajo, daños a las
+							<p style="font-size:20px;"> <strong>Olvídate de tener retrasos en la entrega, riesgos de
+									trabajo, daños a las
 									instalaciones o producto maltratado. </strong>
 							</p>
 							<p style="text-align: justify !important ;"> Si tu empresa se dedica a la instalación de
-							<strong>soluciones solares</strong> o a la <strong>construcción</strong>,
+								<strong>soluciones solares</strong> o a la <strong>construcción</strong>,
 								es común que necesites subir material pesado a techos o construcciones altas,
 								esto cuesta mucho tiempo y esfuerzo. Pero ¡Tenemos la solución! MaxLifter es una
-								herramienta <strong>económica</strong> y <strong>segura</strong> que te permite transportar <strong>mayor carga</strong> en <strong>menos tiempo.</strong> 
+								herramienta <strong>económica</strong> y <strong>segura</strong> que te permite
+								transportar <strong>mayor carga</strong> en <strong>menos tiempo.</strong>
 							</p>
 							<div style="margin-top: 5%;">
-						<a href=#contacto>		<button type="button" class=" btn btn-primary"
-									style="background-color:#004365; border-color: #004365; width: 200px;">Cotiza
-									ahora</button> </a>
-						<a onclick="whatsApp() " class="click-whatsapp " id="whatsapp-button" href="#">	<button type="button" class="btn btn-danger"
-									style="margin-left:5%; width: 200px;">Contacta un asesor</button> </a>
+								<a href=#contacto><button type="button" class="cot btn btn-primary"
+										style="background-color:#004365; border-color: #004365; width: 200px;">Cotiza
+										ahora</button> </a>
+								<a onclick="whatsApp() " class="click-whatsapp " id="whatsapp-button" href="#"> <button
+										type="button" class="cotiza btn btn-danger"
+										style="margin-left:5%; width: 200px;">Contacta un asesor</button> </a>
 							</div>
 
 						</div>
@@ -226,7 +230,8 @@
 				</div>
 
 				<div class="col-lg-6 img-fluid">
-					<img style="margin-left: 0%; width: 650px; height: 450px; text-align: left;" src="./img/MaxLift.png">
+					<img class="MaxL img-fluid" style="margin-left: 0%; width: 650px; height: 450px; text-align: left; margin-top: 3%;"
+						src="./img/MaxLift.png">
 				</div>
 
 
@@ -241,29 +246,32 @@
 	<!--==================================================-->
 
 	<div class="row">
-		<div class="container-fluid" style="display: inline-flex;margin-left: 120px;">
+		<div class="targetas container-fluid" style="display: inline-flex;margin-left: 120px;">
 
 			<div class="col-2 linea_negocio" style="background: #016a88;">
 				<a href="#seguridad"><img style="margin-top: 15px;" class="iconoconocenos" src="./img/transportalo.png"
 						alt="Seguridad electrónica"></a>
-				<p style="color: white; font-size: 25px;">Tránsportalo</p>
+				<p class="letra" style="color: white; font-size: 25px;">Tránsportalo</p>
 			</div>
 			<div class="col-2 linea_negocio" style="background: #1a4363;">
-				<a href="#gps"><img style="margin-top: 15px;" class="iconoconocenos" src="./img/armalo.png" alt="Rastreo Satelital"></a>
-				<p style="color: white; font-size: 25px;">Ármalo</p>
+				<a href="#gps"><img style="margin-top: 15px;" class="iconoconocenos" src="./img/armalo.png"
+						alt="Rastreo Satelital"></a>
+				<p class="letra" style="color: white; font-size: 25px;">Ármalo</p>
 			</div>
 			<div class="col-2 linea_negocio" style="background: #8fdf7e;">
-				<a href="#solar"><img style="margin-top: 15px;" class="iconoconocenos" src="./img/conectalo.png" alt="Paneles Solares"></a>
-				<p style="color: white; font-size: 25px;">Conéctalo</p>
+				<a href="#solar"><img style="margin-top: 15px;" class="iconoconocenos" src="./img/conectalo.png"
+						alt="Paneles Solares"></a>
+				<p class="letra" style="color: white; font-size: 25px;">Conéctalo</p>
 			</div>
 			<div class="col-2 linea_negocio" style="background: #00939a;">
-				<a href="#masmensajes"><img style="margin-top: 15px;" class="iconoconocenos" src="./img/usalo.png" alt="Mensajes SMS"></a>
-				<p style="color: white; font-size: 25px;">Úsalo</p>
+				<a href="#masmensajes"><img style="margin-top: 15px;" class="iconoconocenos" src="./img/usalo.png"
+						alt="Mensajes SMS"></a>
+				<p class="letra" style="color: white; font-size: 25px;">Úsalo</p>
 			</div>
 			<div class="col-2 linea_negocio" style="background: #1fbb94;">
 				<a href="#desinfeccion"><img style="margin-top: 15px;" class="iconoconocenos" src="./img/guardalo.png"
 						alt="Desinfección Ultravioleta"></a>
-				<p style="color: white; font-size: 25px;">Guárdalo</p>
+				<p class="letra" style="color: white; font-size: 25px;">Guárdalo</p>
 			</div>
 		</div>
 

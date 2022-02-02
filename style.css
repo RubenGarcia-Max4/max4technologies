@@ -4893,7 +4893,7 @@ to{-webkit-transform:rotate(360deg) translate(-10px) rotate(-360deg);-moz-transf
     color: #fff;
     text-align: center;
     font-size: 35px;
-    float: left;
+    
     margin-right: 20px;
 	border:1px solid #004365;
 	transition:.5s;
@@ -4919,9 +4919,7 @@ to{-webkit-transform:rotate(360deg) translate(-10px) rotate(-360deg);-moz-transf
 /*====================================================
 --<	Techno Accordion Area Css -->
 ======================================================*/
-.main-accordion-lt {
-    /* background: #2d2d2d; */
-}
+
 .main-accordion-lt2 {
     position: absolute;
     background-color: #2d2d2d;
