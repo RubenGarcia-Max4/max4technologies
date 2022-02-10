@@ -53,6 +53,10 @@ Version: 0.1
     max-width: 100% !important;
 }
 
+.techno_nav_manu_first .col-10 p {
+    font-size: 14px;
+}
+
 .techno_blog {
     color: white;
     background: #004365;
@@ -1739,6 +1743,7 @@ a.em-active-button:hover {
     margin: 20px auto;
     position: relative;
     border-radius: 30px;
+    margin-left: 0px;
 }
 
 .em_bar_bg:before {
@@ -7585,10 +7590,10 @@ a.em-active-button:hover {
     font-size: 22px;
     height: 40px;
     line-height: 40px;
-    right: 100px;
     text-align: center;
     width: 40px;
     border-radius: 50%;
+    margin-left: 3%;
 }
 .intro__bg,
 .intro__bg canvas {
@@ -8036,14 +8041,11 @@ a {
 }
 .card-img-overlay p {
     color: white !important;
-    font-size: 21px;
+    font-size: 17px;
 }
 .card-img-overlay {
     top: 80% !important;
-}
-.SubTittleitalicMedium {
-    font-size: 21px;
-    color: #004365;
+    background: radial-gradient(black, transparent);
 }
 .imgytext {
     background: rgb(242, 242, 242);
@@ -8053,6 +8055,7 @@ a {
     width: 80% !important;
     height: 100% !important;
     padding-bottom: 8%;
+    margin-left: auto;
 }
 .Interetext {
     background: #004365;
@@ -8062,6 +8065,7 @@ a {
     height: 100% !important;
     padding-bottom: 8%;
     color: white;
+    margin-left: auto;
 }
 .avatar {
     height: 100px;
@@ -8085,22 +8089,23 @@ a {
     background: #004365;
     border: medium none;
     color: #fff;
-    font-size: 17px;
-    margin-bottom: 0;
-    padding: 5px 5px;
+    font-size: 14px;
+    margin-bottom: 2px;
+    padding: 10px;
     text-align: center;
     text-transform: capitalize;
-    /* border-radius: 5px; */
-    
     border: 2px solid #004365;
     font-weight: 600;
+}
+.textRegularF {
+    margin-top: 2rem !important;
 }
 .SubTittleitalic {
     font-size: 29px;
     color: #808080 !important;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    text-align: center;
+    text-align: left;
 }
 .textRegular {
     font-size: 18px;
@@ -8108,19 +8113,10 @@ a {
     text-align: justify;
 }
 .vinetas_video {
-    color: #2B388F;
-    list-style-position: outside;
-    list-style: none;
-    padding-left: 0% !important;
-    margin-left: 20%;
-    margin-top: 20%;
-}
-.vinetas_video i {
-    font-size: 15px;
-    margin-top: 2%;
-}
-.vinetas_video i::before {
-    margin: 1%;
+    color: black;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 1.2rem !important;
 }
 .textVinietas {
     font-size: 26px;
@@ -8131,11 +8127,151 @@ a {
 }
 .lastVignettes li {
     color: #2B388F;
-    font-size: 30px;
+    font-size: 17px;
     margin-top: 0%;
 }
 .lastVignettes p {
     color: #2B388F;
     font-size: 17px;
     margin-top: -17px;
+}
+.teInt {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.asesor_buttom {
+    background: rgb(174, 41, 67);
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0;
+    padding: 5px 5px;
+    text-align: center;
+    border: 2px solid #004365;
+    font-weight: bold;
+}
+.asesor_buttom:hover {
+    background: #fff;
+    color: rgb(174, 41, 67);
+}
+.form_box2 input {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    background: #FFF;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: black;
+    transition: .5s;
+}
+.form_box2 label {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.quote_btn2 button {
+    background: rgb(46, 110, 207);
+    border: 0;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 39px;
+    border-radius: 7px;
+    transition: .3s;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.quote_btn2 button:hover {
+    background: #00247e;
+    color: #fff;
+}
+.whatsapp-button {
+    position: fixed;
+    width: 62px;
+    right: 7%;
+    bottom: 20px;
+}
+.whatsapp-button img {
+    width: 200%;
+}
+
+/* Responsive */
+@media (max-width: 950px) {
+    /* Contenido Max Lifter */
+    
+    .techno_nav_manu_first .col-10 p {
+        font-size: 11px;
+    }
+    
+    .techno_nav_manu_first .col-2 {
+        text-align: left !important;
+        display: contents;
+    }
+    
+    .techno_nav_manu_first .col-2 i {
+        margin-right: -1% !important;
+        margin-top: 2%;
+    }
+    
+    .contLifter {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        margin-top: 0%;
+    }
+    
+    .card-img-overlay {
+        top: 55% !important;
+    }
+    
+    .card-img-overlay p {
+        font-size: 10px;
+    }
+    
+    .textRegular {
+        font-size: 15px;
+    }
+    
+    .SubTittleitalic {
+        font-size: 19px;
+        text-align: justify !important;
+    }
+    
+    .textRegularF {
+        margin-top: .5rem !important;
+    }
+    
+    .vinetas_video {
+        font-size: 15px;
+    }
+    
+    .imgytext {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .author_buttom {
+        font-size: 10px;
+        padding: 7px;
+    }
+    
+    .Interetext {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .asesor_buttom {
+        font-size: 10px;
+    }
+    
+    .whatsapp-button {
+        position: fixed;
+        width: 62px;
+        right: 5%;
+        bottom: 20px;
+    }
+    
+    .whatsapp-button img {
+        width: 100%;
+    }
 }
