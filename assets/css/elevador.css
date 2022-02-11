@@ -1,51 +1,50 @@
 .primercont {
-  margin-top: 10%;
-  padding-bottom: 0%;
+    margin-top: 10%;
+    padding-bottom: 0%;
 }
 
 @media (max-width: 950px) {
-  .cotiza {
-    margin-left: 0% !important;
-  }
-  .cot {
-    margin-bottom: 3%;
-  }
-  .targetas {
-      margin-top: 7% !important;
-      margin-bottom: 5% !important;
-    display: inline-table !important;
-    margin-left: 30px !important;
-    padding: auto !important;
-  }
-
-  .iconoconocenos {
-    max-height: 100% !important;
-    padding: 0% !important;
-    width: 40px !important;
-  }
-  .letra {
-    font-size: 9.5px !important;
-  }
-  .letra1 {
-    font-size: 9.5px !important;
-    text-align: left;
-  }
-  .pt-80 {
-    padding-top: 0px;
-  }
-  .pb-20 {
-    padding-bottom: 0px;
-  }
-  .pt-20 {
-    padding-top: 0px;
-  }
-  .MaxL {
-    width: auto 100% !important;
-    height: 100% !important;
-    margin-top: 0% !important;
-    margin-bottom: 5% !important;
-  }
-  .primercont{
-    margin: 5% !important;
-  }
+    .cotiza {
+        margin-left: 0% !important;
+    }
+    .cot {
+        margin-bottom: 3%;
+    }
+    .targetas {
+        margin-top: 7% !important;
+        margin-bottom: 5% !important;
+        display: inline-table !important;
+        margin-left: 30px !important;
+        padding: auto !important;
+    }
+    .iconoconocenos {
+        max-height: 100% !important;
+        padding: 0% !important;
+        width: 40px !important;
+    }
+    .letra {
+        font-size: 9.5px !important;
+    }
+    .letra1 {
+        font-size: 9.5px !important;
+        text-align: left;
+    }
+    .pt-80 {
+        padding-top: 0px;
+    }
+    .pb-20 {
+        padding-bottom: 0px;
+    }
+    .pt-20 {
+        padding-top: 0px;
+    }
+    .MaxL {
+        width: auto 100% !important;
+        height: 100% !important;
+        margin-top: 0% !important;
+        margin-bottom: 5% !important;
+    }
+    .primercont {
+        margin: 5% !important;
+    }
 }
