@@ -1,6 +1,342 @@
+.al{
+  border-top:  0.5px solid black;
+}
+.asi {
+	border-right: 1px solid black;
+  border-top:  1px solid black;
+  border-bottom:  1px solid black ;
+
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0px !important;
+}
+
 .primercont {
   margin-top: 10%;
   padding-bottom: 0%;
+}
+/* Card1 */
+.card1{
+  background-color: white;
+  margin-top: 100px !important;
+ width: 40% !important;
+ border-radius: 0.5rem;
+ box-shadow: 2px 2px 3px grey;
+ text-align: center;
+ padding-top: 20px;
+  padding-bottom: 50px;
+}
+.card2{
+  background-color: white;
+  margin-top: 100px !important;
+  width: 40% !important;
+  margin-left: 30px !important;
+   border-radius: 0.5rem;
+box-shadow: 2px 2px 3px grey;
+text-align: center;
+padding-top: 20px;
+  padding-bottom: 50px;
+}
+.card3{
+  background-color: white;
+  margin-top: 30px !important;
+  width: 40% !important;
+  border-radius: 0.5rem;
+  margin-bottom: 20px !important;
+  box-shadow: 2px 2px 3px grey;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.card4{
+  background-color: white;
+  margin-top: 30px !important;
+  width: 40% !important;
+  margin-left: 30px !important;
+  border-radius: 0.5rem;
+  margin-bottom: 20px !important;
+  box-shadow: 2px 2px 3px grey;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+/* endCard1 */
+
+/* Especificaciones */
+.titles {
+  
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border-color: #884201 !important;
+  display: block;
+  margin: 0px;
+}
+.titles > h6 {
+
+  position: relative;
+  float: left;
+  height: 47px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #016a88;
+  text-transform: none;
+  line-height: 32px;
+  padding: 0 25px;
+  margin: 0;
+}
+.titles > h6:after {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: -15px;
+  border-top:0 ;
+  border-left: 15px solid #016a88;
+  border-right: 0 solid #016a88;
+  border-bottom: 47px solid transparent;
+}
+/*  */
+.titless {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border-color: #884201 !important;
+  display: block;
+  margin: 0px;
+}
+.titless > h6 {
+  position: relative;
+  float: left;
+  height: 47px;
+  width: 300px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #1a4363;
+  text-transform: none;
+  line-height: 32px;
+  padding: 0 10px;
+  margin: 0;
+}
+.titless > h6:after {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: -15px;
+  border-top:0 ;
+  border-left: 15px solid #1a4363;
+  border-right: 0 solid #1a4363;
+  border-bottom: 47px solid transparent;
+}
+/*  */
+
+/*  */
+.titlesss {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border-color: #884201 !important;
+  display: block;
+  margin: 0px;
+}
+.titlesss > h6 {
+  position: relative;
+  float: left;
+  height: 47px;
+  width: 200px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #8fdf7e;
+  text-transform: none;
+  line-height: 32px;
+  padding: 0 10px;
+  margin: 0;
+}
+.titlesss > h6:after {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: -15px;
+  border-top:0 ;
+  border-left: 15px solid #8fdf7e;
+  border-right: 0 solid #8fdf7e;
+  border-bottom: 47px solid transparent;
+}
+/*  */
+
+/*  */
+.titlessss {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border-color: #884201 !important;
+  display: block;
+  margin: 0px;
+}
+.titlessss > h6 {
+  position: relative;
+  float: left;
+  height: 48px;
+  width: 300px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #00939a;
+  text-transform: none;
+  line-height: 32px;
+  padding: 0 10px;
+  margin: 0;
+}
+.titlessss > h6:after {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: -15px;
+  border-top:0 ;
+  border-left: 15px solid #00939a;
+  border-right: 0 solid #00939a;
+  border-bottom: 48px solid transparent;
+}
+/*  */
+
+.titlesssss {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border-color: #884201 !important;
+  display: block;
+  margin: 0px;
+}
+.titlesssss > h6 {
+  position: relative;
+  float: left;
+  height: 48px;
+  width: 200px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #1fbb94;
+  text-transform: none;
+  line-height: 32px;
+  padding: 0 10px;
+  margin: 0;
+}
+.titlesssss > h6:after {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: -15px;
+  border-top:0 ;
+  border-left: 15px solid #1fbb94;
+  border-right: 0 solid #1fbb94;
+  border-bottom: 48px solid transparent;
+}
+/*  */
+
+.titlef {
+  
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border-color: #884201 !important;
+  display: block;
+  margin: 0px;
+}
+.titlef > h6 {
+
+  position: relative;
+  float: left;
+  height: 47px;
+  width: 300px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #016a88;
+  text-transform: none;
+  line-height: 32px;
+  padding: 0 25px;
+  margin: 0;
+}
+.titlef > h6:after {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: -15px;
+  border-top:0 ;
+  border-left: 15px solid #016a88;
+  border-right: 0 solid #016a88;
+  border-bottom: 47px solid transparent;
+}
+
+/* 2DA */
+.widget-titlee {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 32px;
+  background: white;
+  display: block;
+  margin-left: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px
+}
+.widget-titlee > h5 {
+  position: relative;
+  float: left;
+  height: 46px;
+    width: 300px;
+  font-size: 35px;
+  color: #fff;
+  background-color: #016a88;
+  text-transform: none;
+  line-height: 32px;
+  padding: 0 10px;
+  margin: 0;
+}
+.widget-titlee > h5:after {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  right: -15px;
+  border-top:0 ;
+  border-left: 15px solid #016a88;
+  border-right: 0 solid #016a88;
+  border-bottom: 46px solid transparent;
+}
+.widget-titlee > h5::before {
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  bottom: 0;
+  left: -15px;
+  border-top:46px solid transparent ;
+  border-left:  0 solid #016a88;
+  border-right: 15px solid #016a88;
+  border-bottom: 0;
 }
 
 @media (max-width: 950px) {
