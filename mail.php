@@ -11,7 +11,7 @@
         $message = trim($_POST["message"]);
 
         // Check that data was sent to the mailer.
-        if ( empty($name) OR empty($phone) OR empty($web) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($name) OR empty($phone) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Please complete the form and try again.";
@@ -21,6 +21,7 @@
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
         $recipient = "info@webitkurigram.com";
+        /* $recipient = "armandolopezmendoza7@gmail.com"; */
 
         // Set the email subject.
         $subject = "New contact from $name";
@@ -28,9 +29,7 @@
         // Build the email content.
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Subject: $phone\n\n";
-        $email_content .= "Subject: $web\n\n";
-        $email_content .= "Message:\n$message\n";
+        $email_content .= "Phone: $phone\n\n";
 
         // Build the email headers.
         $email_headers = "From: $name <$email>";
