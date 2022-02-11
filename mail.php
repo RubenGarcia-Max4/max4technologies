@@ -20,7 +20,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "info@webitkurigram.com";
+        $recipient = "ruben.garcia@up.edu.mx, david@max4technologies.com";
         /* $recipient = "armandolopezmendoza7@gmail.com"; */
 
         // Set the email subject.
