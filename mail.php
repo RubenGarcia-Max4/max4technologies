@@ -14,17 +14,17 @@
         if ( empty($name) OR empty($phone) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
-            echo "Please complete the form and try again.";
+            echo "Por favor completa el formulario.";
             exit;
         }
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "info@webitkurigram.com";
+        $recipient = "ruben.garcia@max4technologies.com, david@max4technologies.com";
         /* $recipient = "armandolopezmendoza7@gmail.com"; */
 
         // Set the email subject.
-        $subject = "New contact from $name";
+        $subject = "Nuevo contacto de Max Lifter $name";
 
         // Build the email content.
         $email_content = "Name: $name\n";
@@ -38,17 +38,17 @@
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
-            echo "Thank You! Your message has been sent.";
+            echo "Gracias! Tu mensaje se ha enviado";
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            echo "Oops! Algo no funciona y no fue posible enviar el mensaje. Puedes intentar por WhatsApp";
         }
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
-        echo "There was a problem with your submission, please try again.";
+        echo "Hubo un problema, por favor intenta de nuevo.";
     }
 
 ?>
