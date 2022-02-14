@@ -14,12 +14,12 @@ p {
 
 .primercont {
     margin-top: 10%;
-    padding-bottom: 0%;
+    padding-bottom: 5%;
 }
 /* Card1 */
 .card1{
   background-color: white;
-  margin-top: 100px !important;
+
  width: 40% !important;
  border-radius: 0.5rem;
  box-shadow: 2px 2px 3px grey;
@@ -29,7 +29,7 @@ p {
 }
 .card2{
   background-color: white;
-  margin-top: 100px !important;
+ 
   width: 40% !important;
   margin-left: 30px !important;
    border-radius: 0.5rem;
@@ -47,7 +47,7 @@ padding-top: 20px;
   box-shadow: 2px 2px 3px grey;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 .card4{
   background-color: white;
@@ -59,7 +59,7 @@ padding-top: 20px;
   box-shadow: 2px 2px 3px grey;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 /* endCard1 */
 
@@ -79,7 +79,7 @@ padding-top: 20px;
 
   position: relative;
   float: left;
-  height: 47px;
+  height: 48px;
   font-size: 15px;
   color: #fff;
   background-color: #016a88;
@@ -87,6 +87,7 @@ padding-top: 20px;
   line-height: 32px;
   padding: 0 25px;
   margin: 0;
+  padding-top: 5px;
 }
 .titles > h6:after {
   position: absolute;
@@ -98,7 +99,7 @@ padding-top: 20px;
   border-top:0 ;
   border-left: 15px solid #016a88;
   border-right: 0 solid #016a88;
-  border-bottom: 47px solid transparent;
+  border-bottom: 48px solid transparent;
 }
 /*  */
 .titless {
@@ -114,15 +115,16 @@ padding-top: 20px;
 .titless > h6 {
   position: relative;
   float: left;
-  height: 47px;
+  height: 48px;
   width: 300px;
   font-size: 15px;
   color: #fff;
   background-color: #1a4363;
   text-transform: none;
   line-height: 32px;
-  padding: 0 10px;
+  padding: 0 25px;
   margin: 0;
+  padding-top: 5px;
 }
 .titless > h6:after {
   position: absolute;
@@ -134,7 +136,7 @@ padding-top: 20px;
   border-top:0 ;
   border-left: 15px solid #1a4363;
   border-right: 0 solid #1a4363;
-  border-bottom: 47px solid transparent;
+  border-bottom: 48px solid transparent;
 }
 /*  */
 
@@ -159,8 +161,9 @@ padding-top: 20px;
   background-color: #8fdf7e;
   text-transform: none;
   line-height: 32px;
-  padding: 0 10px;
+  padding: 0 25px;
   margin: 0;
+  padding-top: 5px;
 }
 .titlesss > h6:after {
   position: absolute;
@@ -197,8 +200,9 @@ padding-top: 20px;
   background-color: #00939a;
   text-transform: none;
   line-height: 32px;
-  padding: 0 10px;
+  padding: 0 25px;
   margin: 0;
+  padding-top: 5px;
 }
 .titlessss > h6:after {
   position: absolute;
@@ -234,8 +238,9 @@ padding-top: 20px;
   background-color: #1fbb94;
   text-transform: none;
   line-height: 32px;
-  padding: 0 10px;
+  padding: 0 25px;
   margin: 0;
+  padding-top: 5px;
 }
 .titlesssss > h6:after {
   position: absolute;
@@ -275,6 +280,7 @@ padding-top: 20px;
   line-height: 32px;
   padding: 0 25px;
   margin: 0;
+  padding-top: 5px;
 }
 .titlef > h6:after {
   position: absolute;
@@ -313,6 +319,7 @@ padding-top: 20px;
   line-height: 32px;
   padding: 0 10px;
   margin: 0;
+  padding-top: 5px;
 }
 .widget-titlee > h5:after {
   position: absolute;
