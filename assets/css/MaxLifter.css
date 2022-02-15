@@ -2543,7 +2543,7 @@ a {
 
 .p_elevador:hover {
     background: #fff;
-    color: rgb(174, 41, 67);
+    color: rgb(174, 41, 67) !important;
 }
 
 .author_blog_text {
@@ -2714,8 +2714,11 @@ a {
     }
     .p_elevador {
         color: #fff;
-        font-size: 13px !important;
-        padding: 5px 5px;
         width: 100% !important;
+        font-size: 10px !important;
+        padding: 7px 5px !important;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        margin-top: 1% !important;
     }
 }
