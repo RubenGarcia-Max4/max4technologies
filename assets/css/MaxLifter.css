@@ -53,8 +53,12 @@ Version: 0.1
     max-width: 100% !important;
 }
 
-.techno_nav_manu_first .col-10 p {
+.techno_nav_manu_first .col-7 p {
     font-size: 14px;
+}
+
+.techno_nav_manu_first .col-5 a {
+    color: white;
 }
 
 .techno_blog {
@@ -2525,6 +2529,23 @@ a {
     color: rgb(174, 41, 67);
 }
 
+.p_elevador {
+    background: rgb(174, 41, 67);
+    color: #fff;
+    font-size: 16px !important;
+    margin-bottom: 0;
+    padding: 5px 5px;
+    text-align: center;
+    border: 2px solid #004365;
+    font-weight: bold;
+    width: 35% !important;
+}
+
+.p_elevador:hover {
+    background: #fff;
+    color: rgb(174, 41, 67) !important;
+}
+
 .author_blog_text {
     display: none;
     font-size: small;
@@ -2544,6 +2565,16 @@ a {
 .form_box2 input {
     width: 100%;
     height: 50px;
+    padding-left: 15px;
+    background: #FFF;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: black;
+    transition: .5s;
+}
+
+.form_box2 textarea {
+    width: 100%;
     padding-left: 15px;
     background: #FFF;
     border: 1px solid #fff;
@@ -2588,21 +2619,30 @@ a {
     width: 200%;
 }
 
+.banner_latest_advertisement {
+    color: white;
+    background: #004365;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.banner_latest_advertisement p {
+    font-size: 19px;
+}
+
 
 /* Responsive */
 
 @media (max-width: 950px) {
     /* Contenido Max Lifter */
-    .techno_nav_manu_first .col-10 p {
+    .techno_nav_manu_first .col-7 p {
         font-size: 11px;
     }
-    .techno_nav_manu_first .col-2 {
-        text-align: left !important;
-        display: contents;
-    }
-    .techno_nav_manu_first .col-2 i {
-        margin-right: -1% !important;
-        margin-top: 2%;
+    .techno_nav_manu_first .col-5 {
+        text-align: center !important;
+        padding-top: 3%;
     }
     .contLifter {
         padding-left: 10% !important;
@@ -2664,5 +2704,21 @@ a {
         font-size: small;
         color: #808080;
         font-family: 'Montserrat', sans-serif;
+    }
+    .banner_latest_advertisement {
+        font-size: 15px;
+    }
+    .banner_latest_advertisement p {
+        font-size: 19px;
+        text-align: justify !important;
+    }
+    .p_elevador {
+        color: #fff;
+        width: 100% !important;
+        font-size: 10px !important;
+        padding: 7px 5px !important;
+        margin-bottom: 0;
+        text-transform: uppercase;
+        margin-top: 1% !important;
     }
 }

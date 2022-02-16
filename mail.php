@@ -11,7 +11,7 @@
         $message = trim($_POST["message"]);
 
         // Check that data was sent to the mailer.
-        if ( empty($name) OR empty($phone) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($name) OR empty($phone) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Por favor completa el formulario.";
@@ -30,6 +30,7 @@
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
         $email_content .= "Phone: $phone\n\n";
+        $email_content .= "message: $message\n\n";
 
         // Build the email headers.
         $email_headers = "From: $name <$email>";
