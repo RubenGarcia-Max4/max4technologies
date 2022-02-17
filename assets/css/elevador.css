@@ -89,6 +89,7 @@ padding-top: 20px;
   padding: 0 25px;
   margin: 0;
   padding-top: 5px;
+  top: -2px;
 }
 .titles > h6:after {
   position: absolute;
@@ -125,6 +126,7 @@ padding-top: 20px;
   line-height: 32px;
   padding: 0 25px;
   margin: 0;
+  top: -2px;
   padding-top: 5px;
 }
 .titless > h6:after {
@@ -165,6 +167,7 @@ padding-top: 20px;
   padding: 0 25px;
   margin: 0;
   padding-top: 5px;
+  top: -1px;
 }
 .titlesss > h6:after {
   position: absolute;
@@ -204,6 +207,7 @@ padding-top: 20px;
   padding: 0 25px;
   margin: 0;
   padding-top: 5px;
+  top: -2px;
 }
 .titlessss > h6:after {
   position: absolute;
@@ -242,6 +246,7 @@ padding-top: 20px;
   padding: 0 25px;
   margin: 0;
   padding-top: 5px;
+  top: -2px;
 }
 .titlesssss > h6:after {
   position: absolute;
@@ -272,7 +277,7 @@ padding-top: 20px;
 
   position: relative;
   float: left;
-  height: 47px;
+  height: 48px;
   width: 300px;
   font-size: 15px;
   color: #fff;
@@ -282,6 +287,7 @@ padding-top: 20px;
   padding: 0 25px;
   margin: 0;
   padding-top: 5px;
+  top: -2px;
 }
 .titlef > h6:after {
   position: absolute;
@@ -293,7 +299,7 @@ padding-top: 20px;
   border-top:0 ;
   border-left: 15px solid #016a88;
   border-right: 0 solid #016a88;
-  border-bottom: 47px solid transparent;
+  border-bottom: 48px solid transparent;
 }
 
 /* 2DA */
@@ -434,7 +440,7 @@ padding-top: 20px;
   position: relative;
     float: left;
     height: 48px;
-    font-size: 15px;
+    font-size: 11px;
     color: #fff;
     background-color: #016a88;
     text-transform: none;
@@ -442,20 +448,21 @@ padding-top: 20px;
     padding: 0 25px;
     margin: 0;
     padding-top: 5px;
-    width: 175px;
+    width: 118px;
+    top: -2px;
 }
 
 .titles > h6:after {
   position: absolute;
-  content: '';
-  height: 0;
-  width: 0;
-  bottom: 0;
-  right: -15px;
-  border-top:0 ;
-  border-left: 15px solid #016a88;
-  border-right: 0 solid #016a88;
-  border-bottom: 48px solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    bottom: 0;
+    right: -15px;
+    border-top: 0;
+    border-left: 15px solid #016a88;
+    border-right: 0 solid #016a88;
+    border-bottom: 48px solid transparent;
 }
 /*  */
 .titless {
@@ -469,18 +476,19 @@ padding-top: 20px;
   margin: 0px;
 }
 .titless > h6 {
+  top: -2px;
   position: relative;
-    float: left;
-    height: 50px;
-    width: 211px;
-    font-size: 15px;
-    color: #fff;
-    background-color: #1a4363;
-    text-transform: none;
-    line-height: 32px;
-    padding: 0 25px;
-    margin: 0;
-    padding-top: 5px;
+  float: left;
+  height: 50px;
+  width: 160px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #1a4363;
+  text-transform: none;
+  line-height: 32px;
+  padding: 0 25px;
+  margin: 0;
+  padding-top: 5px;
 }
 .titless > h6:after {
   position: absolute;
@@ -509,9 +517,9 @@ padding-top: 20px;
 .titlesss > h6 {
   position: relative;
     float: left;
-    height: 49px;
-    width: 167px;
-    font-size: 15px;
+    height: 47px;
+    width: 112px;
+    font-size: 12px;
     color: #fff;
     background-color: #8fdf7e;
     text-transform: none;
@@ -519,18 +527,19 @@ padding-top: 20px;
     padding: 0 25px;
     margin: 0;
     padding-top: 5px;
+
 }
 .titlesss > h6:after {
   position: absolute;
-  content: '';
-  height: 0;
-  width: 0;
-  bottom: 0;
-  right: -15px;
-  border-top:0 ;
-  border-left: 15px solid #8fdf7e;
-  border-right: 0 solid #8fdf7e;
-  border-bottom: 49px solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    bottom: 0;
+    right: -15px;
+    border-top: 0;
+    border-left: 15px solid #8fdf7e;
+    border-right: 0 solid #8fdf7e;
+    border-bottom: 47px solid transparent;
 }
 /*  */
 
@@ -547,8 +556,8 @@ padding-top: 20px;
 .titlessss > h6 {
   position: relative;
   float: left;
-  height: 51px;
-  width: 223px;
+  height: 49px;
+  width: 149px;
   color: #fff;
   background-color: #00939a;
   text-transform: none;
@@ -556,18 +565,21 @@ padding-top: 20px;
   margin: 0;
   padding-top: 8px;
   line-height: 15px;
+  font-size: 12px;
+  top: -2px;
 }
 .titlessss > h6:after {
   position: absolute;
-  content: '';
-  height: 0;
-  width: 0;
-  bottom: 0;
-  right: -15px;
-  border-top:0 ;
-  border-left: 15px solid #00939a;
-  border-right: 0 solid #00939a;
-  border-bottom: 51px solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    bottom: 0;
+    right: -15px;
+    border-top: 0;
+    border-left: 15px solid #00939a;
+    border-right: 0 solid #00939a;
+    border-bottom: 49px solid transparent;
+
 }
 /*  */
 
@@ -583,28 +595,30 @@ padding-top: 20px;
 .titlesssss > h6 {
   position: relative;
     float: left;
-    height: 51px;
-    width: 165px;
-    font-size: 15px;
+    height: 63px;
+    width: 104px !important;
+    width: 164px;
+    font-size: 12px;
     color: #fff;
     background-color: #1fbb94;
     text-transform: none;
     line-height: 32px;
     padding: 0 25px;
     margin: 0;
-    padding-top: 5px;
+    padding-top: 7px;
+    top: -9px;
 }
 .titlesssss > h6:after {
   position: absolute;
-  content: '';
-  height: 0;
-  width: 0;
-  bottom: 0;
-  right: -15px;
-  border-top:0 ;
-  border-left: 15px solid #1fbb94;
-  border-right: 0 solid #1fbb94;
-  border-bottom: 51px solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    bottom: 0;
+    right: -15px;
+    border-top: 0;
+    border-left: 15px solid #1fbb94;
+    border-right: 0 solid #1fbb94;
+    border-bottom: 63px solid transparent;
 }
 /*  */
 
@@ -623,9 +637,9 @@ padding-top: 20px;
 
   position: relative;
     float: left;
-    height: 47px;
-    width: 219px;
-    font-size: 15px;
+    height: 49px;
+    width: 159px;
+    font-size: 12px;
     color: #fff;
     background-color: #016a88;
     text-transform: none;
@@ -633,26 +647,34 @@ padding-top: 20px;
     padding: 0 25px;
     margin: 0;
     padding-top: 5px;
+    top: -2px;
 }
 .titlef > h6:after {
   position: absolute;
-  content: '';
-  height: 0;
-  width: 0;
-  bottom: 0;
-  right: -15px;
-  border-top:0 ;
-  border-left: 15px solid #016a88;
-  border-right: 0 solid #016a88;
-  border-bottom: 47px solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    bottom: 0;
+    right: -15px;
+    border-top: 0;
+    border-left: 15px solid #016a88;
+    border-right: 0 solid #016a88;
+    border-bottom: 48px solid transparent;
+
 }
 .let{
-  line-height: 13px;
-    padding-right: 0px !important;
+  line-height: 12px;
+    padding-right: 5px !important;
+    font-size: 13px;
+    padding-bottom: 15px;
 }
+
 .let1{
-  padding-right: 0px !important;
-  line-height: 12px !important;
+  padding-right: 5px !important;
+    line-height: 17px !important;
+
     font-size: 13px !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 }
