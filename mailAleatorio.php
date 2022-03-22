@@ -20,7 +20,9 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "ruben.garcia@max4technologies.com, david@max4technologies.com";
+        $recipient = array("up190451@alumnos.upa.edu.mx", "up190671@alumnos.upa.edu.mx", "up190316@alumnos.upa.edu.mx");
+        $recipient1 = "armandolopezmendoza7@gmail.com";
+        $randIndex  =  array_rand($recipient, 1);
         /* $recipient = "armandolopezmendoza7@gmail.com"; */
         
         // Set the email subject.
@@ -36,7 +38,7 @@
         $email_headers = "From: $name <$email>";
 
         // Send the email.
-        if (mail($recipient, $subject, $email_content, $email_headers)) {
+        if (mail($recipient[$randIndex], $subject, $email_content, $email_headers) && mail($recipient1, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
             echo "Gracias! Tu mensaje se ha enviado";
